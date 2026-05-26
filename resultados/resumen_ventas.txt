@@ -1,0 +1,20 @@
+=== REPORTE ===
+VENTAS TOTALES:
+ $456,000.00
+
+El producto más vendido es Clothing, con 894 unidades vendidas.
+
+VENTAS POR MES
+2023-01, se vendió $35,450.00
+2023-02, se vendió $44,060.00
+2023-03, se vendió $28,990.00
+2023-04, se vendió $33,870.00
+2023-05, se vendió $53,150.00
+2023-06, se vendió $36,715.00
+2023-07, se vendió $35,465.00
+2023-08, se vendió $36,960.00
+2023-09, se vendió $23,620.00
+2023-10, se vendió $46,580.00
+2023-11, se vendió $34,920.00
+2023-12, se vendió $44,690.00
+2024-01, se vendió $1,530.00
