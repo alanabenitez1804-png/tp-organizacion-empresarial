@@ -23,17 +23,15 @@ El dataset de análisis se encuentra almacenado dentro de la carpeta `/datos` y 
 * `/resultados`: Almacenamiento de reportes, tablas y gráficos exportados.
 
 ## Instrucciones de Ejecución
-1. Clonar el repositorio
-  git clone https://github.com/alanabenitez1804-png/tp-organizacion-empresarial.git
-2. ingresar a la carpeta del proyecto
-  cd tp-organizacion-empresarial/scripts
-3. Ejecutar
-  python analisis_ventas.py
+* ** Clonar el repositorio: git clone https://github.com/alanabenitez1804-png/tp-organizacion-empresarial.git
+* ** Ingresar a la carpeta del proyecto: cd tp-organizacion-empresarial
+* ** Ejecutar  python3 scripts/menu.py
 
-El mismo generará un Menú interactivo en el cual el usuario podrá generar distintos tipos de
-reportes por pantalla y también se podrá generar un archivo .txt con los datos de ventas totales
-y mensuales.
+    El mismo generará un Menú interactivo en el cual el usuario podrá generar distintos tipos de
+    reportes por pantalla y también se podrá generar un gráfico, un archivo .txt y uno .csv con los datos de ventas totales
+    y mensuales.
 
-4. Requisitos
- - Python 3
- - pandas
+## Requisitos
+* ** Python 3
+* ** pandas
+* ** matplotlib
