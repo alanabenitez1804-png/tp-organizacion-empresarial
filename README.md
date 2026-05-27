@@ -25,7 +25,7 @@ El dataset de análisis se encuentra almacenado dentro de la carpeta `/datos` y 
 ## Instrucciones de Ejecución
 * ** Clonar el repositorio: git clone https://github.com/alanabenitez1804-png/tp-organizacion-empresarial.git
 * ** Ingresar a la carpeta del proyecto: cd tp-organizacion-empresarial
-* ** Ejecutar  python3 scripts/menu.py
+* ** Ejecutar  python3 scripts/main.py
 
     El mismo generará un Menú interactivo en el cual el usuario podrá generar distintos tipos de
     reportes por pantalla y también se podrá generar un gráfico, un archivo .txt y uno .csv con los datos de ventas totales
