@@ -15,6 +15,7 @@ El dataset de análisis se encuentra almacenado dentro de la carpeta `/datos` y 
 * **Cantidad vendida:** Volumen de unidades despachadas en la transacción.
 * **Precio:** Valor monetario unitario del producto.
 * **Fecha de venta:** Registro temporal de la operación.
+* link de acceso al dataset: https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset
 
 ## Estructura del Proyecto
 * `/datos`: Carpeta destinada a almacenar los archivos de datos (CSV/Excel).
@@ -22,7 +23,15 @@ El dataset de análisis se encuentra almacenado dentro de la carpeta `/datos` y 
 * `/resultados`: Almacenamiento de reportes, tablas y gráficos exportados.
 
 ## Instrucciones de Ejecución
-*(Sección en desarrollo - A completar por el Desarrollador Técnico una vez finalizado el script)*
-1. Clonar el repositorio localmente o en el entorno de Google Colab.
-2. Colocar el dataset en formato compatible dentro de la carpeta `/datos`.
-3. Ejecutar el script de análisis principal ubicado en la carpeta `/scripts`.
+* ** Clonar el repositorio: git clone https://github.com/alanabenitez1804-png/tp-organizacion-empresarial.git
+* ** Ingresar a la carpeta del proyecto: cd tp-organizacion-empresarial
+* ** Ejecutar  python3 scripts/main.py
+
+    El mismo generará un Menú interactivo en el cual el usuario podrá generar distintos tipos de
+    reportes por pantalla y también se podrá generar un gráfico, un archivo .txt y uno .csv con los datos de ventas totales
+    y mensuales.
+
+## Requisitos
+* ** Python 3
+* ** pandas
+* ** matplotlib
