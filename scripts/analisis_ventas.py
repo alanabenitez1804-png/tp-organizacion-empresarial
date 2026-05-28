@@ -41,6 +41,15 @@ def ventas_totales_por_categoria():
     """Calcula el total de ventas de una categoría ingresada por el usuario."""
     try:
         categoria = input("\nIngrese una categoría (Beauty, Clothing o Electronics): ").capitalize()
+        
+        #Declaramos en una tupla las categorias permitidas
+        cat_permitidas = ('Beauty', 'Clothing', 'Electronics')
+
+        #Verificamos con una condición if que el valor ingresado sea válido
+        if not categoria.isalpha() or categoria not in cat_permitidas:
+            print('Error, debe ingresar una categoría válida')
+            return
+        
         venta_total = 0
     
         #LLamamos a la funcion lectura() y guardamos los datos en una variable
@@ -121,6 +130,15 @@ def buscador():
     """Cuenta cuántas coincidencias hay de una categoría ingresada por el usuario."""
     try:
         buscar = input("\nIngrese una categoría a buscar (Beauty, Clothing o Electronics): ").capitalize()
+        
+        #Declaramos en una tupla las categorias permitidas
+        cat_permitidas = ('Beauty', 'Clothing', 'Electronics')
+
+        #Verificamos con una condición if que el valor ingresado sea válido
+        if not buscar.isalpha() or buscar not in cat_permitidas:
+            print('Error, debe ingresar una categoría válida')
+            return
+        
         contador = 0
         
         #Abrimos el archivo para leer los datos
